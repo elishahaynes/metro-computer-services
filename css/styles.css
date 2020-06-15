@@ -1,0 +1,66 @@
+/* Base Layout Styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    padding: auto;
+}
+
+.main-header {
+    margin-top: -16px;
+    background-color: #191919;
+}
+
+.logo {
+    width: 250px;
+}
+
+/* Flexbox Layout Styles */
+
+.main-header {
+}
+
+.main-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.main-nav li {
+    align-self: center;
+    margin: 10px;
+}
+
+.contact {
+    padding-right: 50px;
+}
+
+
+
+
+/* Font Styles  */
+
+a {
+    text-decoration: none;
+}
+
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: rgb(4, 117, 4);
+}
+
+.main-header li {
+    color: white;
+    list-style: none;
+    font-size: 1.5em;
+}
+
