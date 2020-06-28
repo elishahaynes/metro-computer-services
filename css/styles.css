@@ -1,4 +1,4 @@
-/* Base Layout Styles */
+/*          Base Layout Styles          */
 * {
     box-sizing: border-box;
 }
@@ -9,22 +9,24 @@ body {
 }
 
 .main-header {
-    margin-top: -16px;
+    
     background-color: #191919;
 }
 
 .logo {
-    width: 250px;
+    width: 100px;
 }
 
-/* Flexbox Layout Styles */
+/*          Flexbox Layout Styles           */
 
 .main-header {
+    border-bottom: 2.5px solid #606e4a;
 }
 
 .main-nav {
     display: flex;
     justify-content: flex-end;
+    margin: 0;
 }
 
 .logo {
@@ -40,10 +42,14 @@ body {
     padding-right: 50px;
 }
 
+.banner-image {
+    width: 100%;
+}
 
 
 
-/* Font Styles  */
+
+/*          Font Styles         */
 
 a {
     text-decoration: none;
@@ -61,6 +67,35 @@ a:hover {
 .main-header li {
     color: white;
     list-style: none;
-    font-size: 1.5em;
+    font-size: 1em;
+}
+
+/*          Media Queries           */
+
+
+@media (min-width: 681px) {
+    .main-header li {
+        font-size: 1.25em;
+    }
+    .main-header {
+        border-bottom: 4px solid #606e4a;
+    }
+    .logo {
+        width: 200px;
+    }
+
+}
+
+
+@media (min-width: 950px) {
+    .main-header li {
+        font-size: 1.5em;
+    }
+    .main-header {
+        border-bottom: 5px solid #606e4a;
+    }
+    .logo {
+        width: 250px;
+    }
 }
 
