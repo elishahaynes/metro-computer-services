@@ -13,9 +13,7 @@ body {
     background-color: #191919;
 }
 
-.logo {
-    width: 100px;
-}
+
 
 /*          Flexbox Layout Styles           */
 
@@ -30,6 +28,7 @@ body {
 }
 
 .logo {
+    width: 100px;
     margin-right: auto;
 }
 
@@ -44,6 +43,15 @@ body {
 
 .banner-image {
     width: 100%;
+}
+
+body {
+    text-align: center;
+}
+
+.services {
+    text-align: center;
+    font-size: 1.2em;
 }
 
 
