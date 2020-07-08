@@ -13,6 +13,9 @@ body {
     background-color: #191919;
 }
 
+ul {
+    list-style-position: inside;
+}
 
 
 /*          Flexbox Layout Styles           */
@@ -89,7 +92,8 @@ a:hover {
         border-bottom: 4px solid #606e4a;
     }
     .logo {
-        width: 200px;
+        height: 75px;
+        width: auto;    
     }
 
 }
@@ -103,7 +107,8 @@ a:hover {
         border-bottom: 5px solid #606e4a;
     }
     .logo {
-        width: 250px;
+        height: 100px;
+        width: auto;
     }
 }
 
