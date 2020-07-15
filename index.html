@@ -2,26 +2,38 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Metro Computer Services</title>
 </head>
 <body>
     <header class="main-header">
         <div>
             <nav>
-                <ul class="main-nav"><img src="images/metro-computer-services-logo.jpg" alt="Metro Computer Services Logo" class="logo">
-                    <li class="home"><a href="index.html">Home</a></li>
-                    <li class="services"><a href="#">Services</a></li>
-                    <li class="blog"><a href="#">Blog</a></li>
-                    <li class="contact"><a href="#">Contact</a></li>
+                <ul class="main-nav"> <a href="index.html"><img src="images/metro-computer-services-logo.jpg" alt="Metro Computer Services Logo" class="logo active" id="logo-home"></a>
+                        <li class="home" id="homeNav"><a href="index.html">Home</a></li>
+                        <li class="services" id="servicesNav"><a href="#">Services</a></li>
+                        <li class="blog" id="blogNav"><a href="#">Blog</a></li>
+                        <li class="contact" id="contactNav"><a href="#">Contact</a></li>
                 </ul>
+
+                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a> -->
             </nav>
         </div>
     
     </header> 
-    <div><img src="images/shorter-logo-on-laptop.png" alt="Logo on Laptop" class="banner-image"></div>   
+    <div class="container">
+        <img src="images/shorter-logo-on-laptop.png" alt="Logo on Laptop" class="banner-image">
+        <div class="typing">
+            <div class="slogan">Serving the IT needs of Louisville since 2008</div>
+        </div>
+    </div> 
+    <!-- <p id="typing">Serving the IT needs of Louisville since 2008</p> -->
     <main>
         <h2 class="services">Services</h2>
-        <section>
+        <section class="primary-col">
             <h3>Personal</h3>
             <p>These are the personal services I provide:</p>
             <ul>
@@ -32,7 +44,7 @@
             </ul>
         </section>
         <hr>
-        <section>
+        <section class="secondary-col">
             <h3>Business</h3>
             <p>These are the services I provide to Businesses:</p>
             <ul>
@@ -47,9 +59,6 @@
 
 
 
-
-
-
     </main>
     <footer>
         <p>Metro Computer Services</p>
@@ -58,5 +67,7 @@
         <p>502-716-1984 (call/text)</p>
         <p>Luke@MetroComputerServices.com</p>
     </footer>
+    <!-- Typwriter Function on Banner Image -->
+    <!-- <script src="../js/scripts.js"></script> -->
 </body>
 </html>
