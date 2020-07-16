@@ -71,7 +71,7 @@ body {
 
 .services {
     text-align: center;
-    font-size: 1.2em;
+    font-size: 2rem;
 }
 
 
@@ -136,6 +136,47 @@ body {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: rgb(4, 117, 4);
+}
+
+.main-header li {
+    color: white;
+    list-style: none;
+    font-size: 1em;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+main li {
+    font-size: 1.1rem;
+}
+
+footer p {
+    color: rgb(231, 228, 228);
+    margin: auto;
+    padding: 5px 5px;
+    font-size: .75em;
+}
+
+
+/*          Slogan Typing on Main Picture        */
+
+
 .slogan {
     color: white;
     font-size: inherit;
@@ -157,32 +198,6 @@ body {
 }
 
 
-a {
-    text-decoration: none;
-}
-
-a:visited {
-    color: white;
-}
-
-a:hover {
-    color: rgb(4, 117, 4);
-}
-
-.main-header li {
-    color: white;
-    list-style: none;
-    font-size: 1em;
-}
-
-footer p {
-    color: rgb(231, 228, 228);
-    margin: auto;
-    padding: 5px 5px;
-    font-size: .75em;
-}
-
-
 /*          Media Queries           */
 
 
@@ -201,6 +216,7 @@ footer p {
     .slogan {
         font-size: inherit;
     }
+   
 }
 
 
