@@ -197,6 +197,14 @@ footer p {
     to { width: 100% }
 }
 
+/* Testimonial Carousel */
+
+.mySlides {
+    max-width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
 
 /*          Media Queries           */
 
