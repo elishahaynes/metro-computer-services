@@ -63,6 +63,7 @@ footer {
 
 .banner-image {
     width: 100%;
+    margin-bottom: 1rem;
 }
 
 body {
@@ -70,7 +71,6 @@ body {
 }
 
 .services {
-    margin-top: 2.5rem;
     text-align: center;
     font-size: 2rem;
 }
@@ -279,6 +279,26 @@ button {
     }
     .slogan {
         font-size: inherit;
+    }
+
+    .primary-col {
+        float: left;
+        width: 50%;
+    }
+
+    .secondary-col {
+        float: right;
+        width: 50%;
+    }
+
+    .group:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    hr {
+        display: none;
     }
 }
 
