@@ -1,4 +1,4 @@
-/*          Base Layout Styles          */
+/* Base Layout Styles  */
 
 
 * {
@@ -34,7 +34,7 @@ footer {
 
 
 
-/*          Flexbox Layout Styles           */
+/* Flexbox Layout Styles */
 
 
 .main-header {
@@ -70,6 +70,7 @@ body {
 }
 
 .services {
+    margin-top: 2.5rem;
     text-align: center;
     font-size: 2rem;
 }
@@ -124,7 +125,7 @@ body {
  
 
 
-/*          Font Styles         */
+/* Font Styles */
 
 
 body {
@@ -174,7 +175,7 @@ footer p {
 }
 
 
-/*          Slogan Typing on Main Picture        */
+/* Slogan Typing on Main Picture */
 
 
 .slogan {
@@ -197,6 +198,43 @@ footer p {
     to { width: 100% }
 }
 
+
+/* Contact Form */
+
+.contact_form {
+    border: 3px solid rgb(4, 117, 4);
+    margin: 5rem;
+}
+
+.contact_form ul {
+    list-style-type: none;
+}
+
+
+#name,
+#mail,
+#phone {
+    font-size: 1.3rem;
+    width: 50%;
+    margin: 8px;
+}
+
+.contact_form label {
+    font-size: 1.3rem;
+}
+
+
+
+
+
+button {
+    font-size: 1.5rem;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 40px;
+}
+
+
 /* Testimonial Carousel */
 
 .mySlides {
@@ -206,7 +244,7 @@ footer p {
 }
 
 
-/*          Media Queries           */
+/* Media Queries */
 
 
 @media (min-width: 681px) {
