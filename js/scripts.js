@@ -54,9 +54,6 @@
 
 
 
-
-
-
 var slideIndex = 0;
 carousel();
 
@@ -70,4 +67,10 @@ function carousel() {
   if (slideIndex > x.length) {slideIndex = 1}
   x[slideIndex-1].style.display = "block";
   setTimeout(carousel, 8000); // Change image every 8 seconds
+}
+
+
+function toggleClass(){
+    let menu = document.querySelector(".main-nav");
+    menu.classList.toggle("toggleCls");
 }

@@ -50,6 +50,7 @@ footer {
 .logo {
     width: 100px;
     margin-right: 3rem;
+    margin-top: 9px;
 }
 
 .main-nav li {
@@ -76,54 +77,6 @@ body {
 }
 
 
-/* TESTING THE HAMBURGER MENU CSS */
-
-
-/* Style the navigation menu */
-/* .main-nav {
-    overflow: hidden;
-    position: relative;
-  } */
-  
-  /* Hide the links inside the navigation menu (except for logo/home) */
-/* #homeNav,
-#servicesNav,
-#blogNav,
-#contactNav {
-    display: none;
-  } */
-  
-  /* Style navigation menu links */
-  /* .main-nav a {
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-  } */
-  
-  /* Style the hamburger menu */
-  /* .main-nav a.icon {
-    background: black;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-  } */
-  
-  /* Add a grey background color on mouse-over */
-  /* .main-nav a:hover {
-    background-color: #ddd;
-    color: black;
-  } */
-  
-  /* Style the active link (or home/logo) */
-  /* .active {
-    background-color: #4CAF50;
-    color: white;
-  } */
- 
-
 
 /* Font Styles */
 
@@ -135,6 +88,12 @@ body {
 .container {
     position: relative;
     text-align: center;
+}
+
+.hamIcon h1{
+    color: white;
+    margin: auto;
+    padding: 10px;
 }
 
 a {
@@ -224,9 +183,6 @@ footer p {
 }
 
 
-
-
-
 button {
     font-size: 1.5rem;
     display: block;
@@ -246,6 +202,15 @@ button {
 
 /* Media Queries */
 
+@media (max-width: 680px) {
+    .main-nav,
+    .logo {
+        display: none;
+    }
+    .main-nav.toggleCls {
+        display: block;
+    }
+}
 
 @media (min-width: 681px) {
     .main-header li {
@@ -262,7 +227,9 @@ button {
     .slogan {
         font-size: inherit;
     }
-   
+    .hamIcon {
+        display: none;
+    }
 }
 
 
