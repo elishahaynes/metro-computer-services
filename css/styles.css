@@ -33,7 +33,6 @@ footer {
 }
 
 
-
 /* Flexbox Layout Styles */
 
 
@@ -75,7 +74,6 @@ body {
     text-align: center;
     font-size: 2rem;
 }
-
 
 
 /* Font Styles */
@@ -134,7 +132,7 @@ footer p {
 }
 
 
-/* Slogan Typing on Main Picture */
+/* "Typing" Slogan on Banner Image */
 
 
 .slogan {
@@ -160,6 +158,7 @@ footer p {
 
 /* Contact Form */
 
+
 .contact_form {
     border: 3px solid rgb(4, 117, 4);
     margin: 5rem;
@@ -168,7 +167,6 @@ footer p {
 .contact_form ul {
     list-style-type: none;
 }
-
 
 #name,
 #mail,
@@ -182,7 +180,6 @@ footer p {
     font-size: 1.3rem;
 }
 
-
 button {
     font-size: 1.5rem;
     display: block;
@@ -193,6 +190,7 @@ button {
 
 /* Testimonial Carousel */
 
+
 .mySlides {
     max-width: 100%;
     margin-top: 3rem;
@@ -201,6 +199,7 @@ button {
 
 
 /* Media Queries */
+
 
 @media (max-width: 680px) {
     .main-nav,
@@ -232,7 +231,6 @@ button {
     }
 }
 
-
 @media (min-width: 980px) {
     .main-header li {
         font-size: 1.5em;
@@ -248,6 +246,7 @@ button {
         font-size: inherit;
     }
 
+    /* Switching from one column mobile layout to two column layout (one of the "feature requirements) */
     .primary-col {
         float: left;
         width: 50%;
