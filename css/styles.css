@@ -42,8 +42,6 @@ footer {
 
 .main-nav {
     display: flex;
-    justify-content: flex-end;
-    margin: 0;
 }
 
 .logo {
@@ -70,9 +68,10 @@ body {
     text-align: center;
 }
 
-.services {
+#allServices {
     text-align: center;
     font-size: 2rem;
+    margin-top: auto;
 }
 
 
@@ -137,9 +136,9 @@ footer p {
 
 .slogan {
     color: white;
-    font-size: inherit;
+    font-size: 6px;
     position: absolute;
-    top: 60%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -159,12 +158,13 @@ footer p {
 /* Contact Form */
 
 
-.contact_form {
+#contact-form {
     border: 3px solid rgb(4, 117, 4);
-    margin: 5rem;
+    margin-top: 2rem;
+    padding: 0 10px;
 }
 
-.contact_form ul {
+#contact-form ul {
     list-style-type: none;
 }
 
@@ -176,7 +176,7 @@ footer p {
     margin: 8px;
 }
 
-.contact_form label {
+#contact-form label {
     font-size: 1.3rem;
 }
 
@@ -193,8 +193,7 @@ button {
 
 .mySlides {
     max-width: 100%;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin: 32px auto;
 }
 
 
@@ -218,13 +217,17 @@ button {
     .main-header {
         border-bottom: 4px solid #606e4a;
     }
+    .nav-flex {
+        display: flex;
+        justify-content: space-between;
+    }
     .logo {
         height: 75px;
         width: auto; 
         margin-right: auto;   
     }
     .slogan {
-        font-size: inherit;
+        font-size: 12px;
     }
     .hamIcon {
         display: none;
@@ -243,28 +246,43 @@ button {
         width: auto;
     }
     .slogan {
-        font-size: inherit;
+        font-size: 17px;
+        top: 60%;
+    }
+    #allServices {
+        font-size: 2.5rem;
+    }
+    h3 {
+        font-size: 1.75rem;
+    }
+    p {
+        font-size: 1.5rem;
+    }
+    main li {
+        font-size: 1.3rem;
     }
 
     /* Switching from one column mobile layout to two column layout (one of the "feature requirements) */
+
     .primary-col {
         float: left;
-        width: 50%;
+        width: 45%;
     }
-
     .secondary-col {
         float: right;
-        width: 50%;
+        width: 45%;
     }
-
     .group:after {
         content: "";
         display: table;
         clear: both;
     }
-
     hr {
         display: none;
+    }
+    #contact-form {
+        width: 80%;
+        margin: 2rem auto auto;
     }
 }
 

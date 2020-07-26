@@ -14,12 +14,13 @@
         <div class="hamIcon" onclick="toggleClass()">
             <h1>&#9776;</h1>
         </div>
-        <nav>
-            <ul class="main-nav"><a href="index.html"><img src="images/metro-computer-services-logo.jpg" alt="Metro Computer Services Logo" class="logo active" id="logo-home"></a>
+        <nav class="nav-flex">
+            <a href="index.html"><img src="images/metro-computer-services-logo.jpg" alt="Metro Computer Services Logo" class="logo active" id="logo-home"></a>
+            <ul class="main-nav">
                     <li class="home" id="homeNav"><a href="index.html">Home</a></li>
-                    <li class="services" id="servicesNav"><a href="#">Services</a></li>
+                    <li class="services" id="servicesNav"><a href="#allServices">Services</a></li>
                     <li class="blog" id="blogNav"><a href="#">Blog</a></li>
-                    <li class="contact" id="contactNav"><a href="#">Contact</a></li>
+                    <li class="contact" id="contactNav"><a href="#contact-form">Contact</a></li>
             </ul>
         </nav>
     </header> 
@@ -36,7 +37,7 @@
     <main>
 
         <div class="group">
-            <h2 class="services">Services</h2>
+            <h2 id="allServices">Services</h2>
             <section class="primary-col">
                 <h3>Personal</h3>
                 <p>These are the personal services I provide:</p>
@@ -62,7 +63,7 @@
 
 <!-- Contact Form -->
 
-    <form class="contact_form">
+    <form id="contact-form">
         <h2>Need Computer or Technical Assistance? Let Me Help.</h2>
             <ul>
                 <li><label for="name">Name:</label><input type="text" id="name" name="user_name"></li>  
