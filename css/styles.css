@@ -56,7 +56,7 @@ footer {
 }
 
 .contact {
-    padding-right: 50px;
+    padding-right: 25px;
 }
 
 .banner-image {
@@ -108,7 +108,7 @@ a:hover {
 .main-header li {
     color: white;
     list-style: none;
-    font-size: 1em;
+    font-size: 1.4rem;
 }
 
 h3 {
@@ -207,6 +207,13 @@ button {
     }
     .main-nav.toggleCls {
         display: block;
+        padding: 0;
+    }
+    .main-nav a {
+        display: block;
+    }
+    .contact {
+        padding: 0;
     }
 }
 
