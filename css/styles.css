@@ -71,7 +71,7 @@ body {
 #allServices {
     text-align: center;
     font-size: 2rem;
-    margin-top: auto;
+    margin-top: 11px;
 }
 
 
@@ -172,7 +172,7 @@ footer p {
 #mail,
 #phone {
     font-size: 1.3rem;
-    width: 50%;
+    width: 70%;
     margin: 8px;
 }
 
@@ -238,6 +238,11 @@ button {
     }
     .hamIcon {
         display: none;
+    }
+    #name,
+    #mail,
+    #phone {
+        width: 50%;
     }
 }
 
