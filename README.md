@@ -11,8 +11,8 @@ Below are the 3 "feature requirements" I have implemented:
 All of the "additional requirements" should have been met.
 
 
-*Sources I used for hamburger menu:
-    Fellow Thursday night Code Louisville student Brian Kiefer, who recommended watching this YouTube video by TubeMint: https://www.youtube.com/watch?v=8r3hGIvyP3k
+*Sources I used for hamburger menu were fellow Thursday night Code Louisville student Brian Kiefer, who recommended watching this YouTube video by TubeMint: https://www.youtube.com/watch?v=8r3hGIvyP3k
 
+*Source I used for the image carousel was w3schools.com
 
-*Sources I used for 
+*Source I used for the "typing" slogan effect was Leon Brown from Creative Bloq: https://www.creativebloq.com/how-to/create-an-animated-typing-effect
